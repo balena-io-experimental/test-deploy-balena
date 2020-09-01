@@ -2,3 +2,4 @@ applicationConfigVariables:
     - BALENA_UI_SOME_VARIABLE: 12345
 applicationEnvironmentVariables:
     - SOME_ENVIRONMENT: 123456
+defaultDeviceType: 'fincm3'
