@@ -26,6 +26,10 @@ This is a simple skeleton Express server project that works on any of the [balen
 
 [![](/img/deploy_to_balena.png)](https://localhost:3000/deploy?configUrl=https://raw.githubusercontent.com/balena-io-playground/test-deploy-balena/master/balena.yml)
 
+## Localhost with invalid config url
+
+[![](/img/deploy_to_balena.png)](https://localhost:3000/deploy?repoUrl=https://github.com/balena-io-playground/test-deploy-balena&configUrl=https://raw.githubusercontent.com/balena-io-playground/test-deploy-balena/master/invalidconfig.yml)
+
 ## Localhost with tarball url
 
 [![](/img/deploy_to_balena.png)](https://localhost:3000/deploy?tarballUrl=https://github.com/balena-io-playground/test-deploy-balena/raw/master/test/deploy.tar)

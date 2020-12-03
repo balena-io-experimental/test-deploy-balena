@@ -5,10 +5,11 @@ type: "sw.application"
 assets:
   - url: "https://github.com/balena-io-playground/test-deploy-balena"
     name: "repository"
+
+# applicationConfigVariables is not correctly indented
 data:
-# This is not correctly indented
 applicationConfigVariables:
     - BALENA_UI_SOME_VARIABLE: 12345
   applicationEnvironmentVariables:
-    - SOME_ENVIRONMENT: 123456
+    - SOME_ENVIRONMENT: 123456, 1234213
   defaultDeviceType: "fincm3"
