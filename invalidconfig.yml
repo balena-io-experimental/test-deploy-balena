@@ -1,0 +1,14 @@
+version: "2"
+slug: "test-deploy-balena"
+name: "Test deploy balena"
+type: "sw.application"
+assets:
+  - url: "https://github.com/balena-io-playground/test-deploy-balena"
+    name: "repository"
+data:
+# This is not correctly indented
+applicationConfigVariables:
+    - BALENA_UI_SOME_VARIABLE: 12345
+  applicationEnvironmentVariables:
+    - SOME_ENVIRONMENT: 123456
+  defaultDeviceType: "fincm3"
